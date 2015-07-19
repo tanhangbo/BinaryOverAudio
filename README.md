@@ -8,6 +8,7 @@ The top layer builds frame format and has a GUI to make it more user friendly.
 it builds and parses frame format of audio communication, the format is as followed:
 
 TYPE: Preamble MACAddr LEN  Data  FCS
+
 LEN:    1B       4B    4B   LEN   1B
 
 Currently, FCS is not implemented because the packet loss rate is very high and 
