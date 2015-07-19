@@ -14,7 +14,7 @@ Currently, FCS is not implemented because the packet loss rate is very high and
 the communication process is very slow. With improved mechanism, I believe it will
 be faster. You can see the current mechanism from the following picture:
 
-[picture]
+![](https://raw.githubusercontent.com/tanhangbo/BinaryOverAudio/master/screenshot2.jpg)
 
 Every bit is represented as a certain duration of sound. Long duration means '1',
 short duration means '0'. Because the mic and speaker are not accurate, so I choose
@@ -23,7 +23,7 @@ this way to make it work.
 
 The GUI:
 
-[picture]
+![](https://raw.githubusercontent.com/tanhangbo/BinaryOverAudio/master/screenshot1.png)
 
 There is a example video, the origin video is missing, so I downloaded
 it from a video website.
